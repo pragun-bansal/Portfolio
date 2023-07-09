@@ -1,6 +1,6 @@
 import React from "react";
 
-import myImage from "../../img/myImage.png";
+import myImage from "../../img/myImage.jpg";
 
 //import skillBars
 import SkillBars from "./about.description.skillBars";

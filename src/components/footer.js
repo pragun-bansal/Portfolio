@@ -35,7 +35,7 @@ export default function Footer() {
 							</a>
 						</div>
 					</div>
-					<h5 className="pt-4">Frank Izquierdo &copy; {year}</h5>
+					<h5 className="pt-4">Pragun Bansal &copy; {year}</h5>
 				</div>
 			</div>
 		);

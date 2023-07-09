@@ -19,7 +19,7 @@ export default function Background() {
 			<div id="stars3" />
 			<div className="top-container flex">
 				<h1>
-					Hello, I&apos;m Frank Izquierdo.
+					Hello, I&apos;m Pragun Bansal.
 					<br />
 					I&apos;m a Full Stack Web Developer.
 				</h1>
