@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 
 //import images
-import Vmarine from "../../img/Vmarine.jpg";
-import aguaDeLuz from "../../img/aguaDeLuz.png";
-import todo from "../../img/todolist.png";
-
+import Tilottama from "../../img/Tilottama.png";
+import ConnectVerse from "../../img/ConnectVerse.png";
+import CheckItOff from "../../img/CheckItOff.png";
 
 
 import HiddenModalDescription from "./hiddenModals.description";
@@ -13,10 +12,10 @@ export default function HiddenModals() {
 
     const [projects, setProjects] = useState([
         {
-            name: "vmarine",
-            image: Vmarine,
+            name: "Tilottama",
+            image: Tilottama,
             status: "View Live Demo",
-            ref:"./",
+            ref:"https://tilottama.netlify.app/",
             description: [
                 "Prototype marine web-application to provide information about progress of services and prices.",
                 "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS.",
@@ -24,20 +23,20 @@ export default function HiddenModals() {
             ]
         },
         {
-            name: "agualuz",
-            image: aguaDeLuz,
+            name: "CheckItOff",
+            image: CheckItOff,
             status: "View Live Demo",
-            ref: "./AguaDeLuz/index.html",
+            ref: "https://checkitoff-app.netlify.app/",
             description: [
                 "Marine web-application to provide information about progress of services and prices.",
                 "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
             ]
         },
         {
-            name: "todolist",
-            image: todo,
+            name: "ConnectVerse",
+            image: ConnectVerse,
             status: "View Live Demo",
-            ref: "./todoList/index.html",
+            ref: "https://connectverse.netlify.app/",
             description: [
                 "YEAHHHH lication to provide information about progress of services and prices.",
                 "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."

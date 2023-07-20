@@ -22,13 +22,13 @@ export default function Footer() {
 							</a>
 							<a
 								className="px-3"
-								href="https://github.com/kodi24fever"
+								href="https://github.com/pragun-bansal"
 								target="_blank"
 								rel="noopener noreferrer">
 								<img src={github} alt=""/>
 							</a>
 							<a
-								href="https://www.linkedin.com/in/frankizquierdo"
+								href="https://www.linkedin.com/in/pragun-bansal-233a05214/"
 								target="_blank"
 								rel="noopener noreferrer">
 								<img src={linkedin} alt=""/>
